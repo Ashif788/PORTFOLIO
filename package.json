@@ -10,7 +10,6 @@
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
     "pdf-viewer-reactjs": "^2.2.3",
-    "pdfjs-dist": "^2.10.377",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
