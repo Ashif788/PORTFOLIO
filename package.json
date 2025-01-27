@@ -20,19 +20,19 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
-    "prisma": "^4.0.0",  // Add Prisma as a dependency
-    "@prisma/client": "^4.0.0"  // Add Prisma Client as a dependency
+    "prisma": "^4.0.0",
+    "@prisma/client": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run prisma:generate && npm run prisma:migrate && react-scripts build",  // Ensure prisma commands are part of build step
+    "build": "npm run prisma:generate && npm run prisma:migrate && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prisma:generate": "prisma generate", // Ensure Prisma Client is generated
-    "prisma:migrate": "prisma migrate deploy", // Use deploy for production environments
-    "prisma:studio": "prisma studio", // Optional: for local development, to open Prisma Studio
-    "prisma:reset": "prisma migrate reset", // Optional: for local development, to reset DB
-    "prisma:seed": "prisma db seed"  // Optional: if you have a seeding script
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy",
+    "prisma:studio": "prisma studio",
+    "prisma:reset": "prisma migrate reset",
+    "prisma:seed": "prisma db seed"
   },
   "eslintConfig": {
     "extends": [
