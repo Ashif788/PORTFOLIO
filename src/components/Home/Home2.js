@@ -19,8 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with Computer when i was studying in 7th standard and I have at least learnt
-              something, I think… 
+            I fell in love with computers when I saw the miracles they can do. I believe I've learned at least something, I think.......
               <br />
               <br />I am fluent in classics like
               <br />
